@@ -2,6 +2,5 @@
 fname = input("Enter file name: ")
 fhnew = open(fname)
 for line in fhnew:
-	line = line.rstrip()
-	print (line.upper())
+	print (line.rstrip().upper())
 	
